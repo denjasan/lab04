@@ -56,8 +56,7 @@ jobs:
         shell: bash
         run: |
           cd build1/hello_world_application
-          # ./hello_world
-          ls
+          ./hell
   Build-solver:
     runs-on: ubuntu-latest
     needs: [ Build-library ]
